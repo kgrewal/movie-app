@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Material UI Kit 
+
+This project uses Material UI (MUI) React UI Kits to speed up development time and utilize the UI tools to help ship faster. (https://mui.com/)
+
 ## Available Scripts
 
 In the project directory, you can run:

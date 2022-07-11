@@ -1,38 +1,27 @@
-.App {
-  text-align: center;
+body {
+  background-color: #111111!important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.css-10botns-MuiInputBase-input-MuiFilledInput-input {
+  padding: 12px 12px!important;
+  border-radius: 5px!important;
+  background-color: #FFFFFF!important;
+  font-size: 20px!important;
+  font-weight: 700!important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.css-1to7aaw-MuiButtonBase-root-MuiPaginationItem-root {
+  font-size: 16px!important;
+  font-weight: 700!important;
+  color: #FFFFFF!important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+footer {
+  background-color: #111111;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+footer p {
+  margin-bottom: .25rem;
 }
