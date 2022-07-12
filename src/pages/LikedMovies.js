@@ -1,5 +1,4 @@
 import { useEffect } from 'react';
-import { Button } from '@mui/material';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import LikedContent from '../components/LikedContent';
@@ -12,7 +11,9 @@ const LikedMovies = () => {
   const [likedMovies, setLikedMovies] = useRecoilState(likedMoviesState);
 
   useEffect( () => {
-    axios.get("http://127.0.0.1:5000/api/get_liked_movies").then((response) => setLikedMovies(response.data.Results));
+    axios.get("http://127.0.0.1:5000/api/get_liked_movies").then((response) => {
+      setLikedMovies(response.data.Results)
+    });
   }, []
   );
 
