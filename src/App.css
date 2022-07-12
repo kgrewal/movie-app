@@ -2,7 +2,7 @@ body {
   background-color: #111111!important;
 }
 
-.css-10botns-MuiInputBase-input-MuiFilledInput-input {
+.MuiFilledInput-input {
   padding: 12px 12px!important;
   border-radius: 5px!important;
   background-color: #FFFFFF!important;

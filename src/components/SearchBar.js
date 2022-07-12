@@ -4,7 +4,6 @@ const SearchBar = ({ searchQuery, setSearchQuery }) => {
 	return (
 	  <Box>
 			<TextField
-				color="#FFFFFF"
 				variant="filled"
 				onChange={(event) => setSearchQuery(event.target.value)}
 				placeholder='Type a movie title here...'

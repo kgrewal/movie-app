@@ -13,7 +13,7 @@ export const MovieDetailsModal = ({ movieDetails, open, handleModalOpen, handleM
       open={open}
       onClose={handleModalClose}
       maxWidth="xl"
-      fullScreen={true}
+      fullScreen={false}
       sx={{ 
         borderRadius: 2, 
         boxShadow: 5,

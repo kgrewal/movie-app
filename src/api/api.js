@@ -1,7 +1,10 @@
 import axios from 'axios';
 
-// Local Environment API Base URL 
-const apiBaseUrl = "http://127.0.0.1:5000/api/";
+// Local Env Backend API Base URL 
+// const apiBaseUrl = "http://127.0.0.1:5000/api/";
+
+// Production Env Backend API Base URL
+const apiBaseUrl = "https://ensemble-movie-backend-wtveiktqea-wl.a.run.app/api/";
 
 const fetchMovies = async (searchQuery, page) => {
   try {
