@@ -17,7 +17,7 @@ const MoviesCard = ({ movie, index, setLoading }) => {
     <>
     <Card 
       sx={{ 
-        m: 4, 
+        m: 3, 
         justifyContent: 'center', 
         borderRadius: 2, 
         boxShadow: 5,

@@ -6,7 +6,6 @@ import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import MovieCreationIcon from '@mui/icons-material/MovieCreation';
 
 export const MovieDetailsModal = ({ movieDetails, open, handleModalOpen, handleModalClose }) => {
-
   return (
     <>
     <Button variant="contained" onClick={handleModalOpen} endIcon={<ArrowRightIcon />}>View Movie Details</Button> 
@@ -17,7 +16,8 @@ export const MovieDetailsModal = ({ movieDetails, open, handleModalOpen, handleM
       fullScreen={true}
       sx={{ 
         borderRadius: 2, 
-        boxShadow: 5
+        boxShadow: 5,
+        transition: "1s"
       }}
       scroll='paper'
     >

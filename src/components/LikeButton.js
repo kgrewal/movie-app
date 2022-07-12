@@ -18,6 +18,7 @@ const LikeButton = ({ movie, setLiked }) => {
       sx={{
         color: pink[500],
         border: "1.5px solid #333333",
+        transition: "0.3s",
         "&:hover": {
           border: "1.5px solid #333333",
           fontWeight: 700

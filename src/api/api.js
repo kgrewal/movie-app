@@ -5,7 +5,8 @@ const apiBaseUrl = "http://127.0.0.1:5000/api/";
 
 const fetchMovies = async (searchQuery, page) => {
   try {
-    const response = await axios.get(apiBaseUrl + "search_movies?title=" + searchQuery + "&page=" + page);
+    const queryClean = searchQuery.trim();
+    const response = await axios.get(apiBaseUrl + "search_movies?title=" + queryClean + "&page=" + page);
     return response.data;
   } catch (err) {
     console.error(err);

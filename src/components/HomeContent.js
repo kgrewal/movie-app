@@ -34,7 +34,7 @@ const HomeContent = () => {
 
   return (
     <Container maxWidth="xl" sx={{ backgroundColor: "#333333" }}>
-      <Box sx={{ mt: 12, p: 4 }}>
+      <Box sx={{ mt: 12, p: { xs: 0, md: 4 } }}>
         <Grid container sx={{ justifyContent: "center" }}>
           <Grid item>
             <HomeHero searchQuery={searchQuery} setSearchQuery={setSearchQuery} handleSearch={handleSearch} loading={loading} />
