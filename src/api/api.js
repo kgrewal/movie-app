@@ -50,4 +50,4 @@ const getLikedMovies = async () => {
   }
 };
 
-export { fetchMovies, fetchMovieDetails, likeMovie, unlikeMovie, getLikedMovies };
+export { apiBaseUrl, fetchMovies, fetchMovieDetails, likeMovie, unlikeMovie, getLikedMovies };
